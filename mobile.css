@@ -1,0 +1,42 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-position: right;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100vh;
+    background-color: rgba(0, 0, 0,.7);
+    min-width: 100%;
+}
+
+.form__titulo{
+    display:none;
+}
+
+.form{
+    background: none;
+    background-position: center;
+    position: relative;
+    margin-top: 5rem;
+}
+.contenedor__subtitulo{
+    display: none;
+}
+.contenedor__parrafo{
+    display: none;
+}
+
+.form__contenedoriconos{
+    display:block;
+    position:absolute;
+    right:60%;
+    top:30%;
+}
+
+.contenedor__boton{
+    position:absolute;
+    top:0%;
+    left:41%;
+   }
